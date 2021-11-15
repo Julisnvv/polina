@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+    font-family:'Montserrat', sans-serif;
+    background-color: #E0E0E0;
+}
+
+
+.rt{
+    margin-left: 20px;
+    margin-right: 20px;
+display: flex;
+    justify-content: center;
+    margin: 5% auto;
+    width: 84%;
+    padding: 3%;
+    border: 3px solid #221C35;
+}
+
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -2rem -2rem;
+}
+
+.gallery-item {
+        flex: 1 0 24rem;
+        padding: 2%;
+    margin: 1rem;
+        overflow: hidden;
+}
+
+.gallery-image {
+    margin: 30px auto 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+       
+    width: 84%;
+    height: 84%;
+    margin: 5% auto;
+    width: 84%;
+    margin-bottom: 5%;
+    padding: 3%;
+    flex-direction: column;
+}
+
+.gallery-image:hover{
+ position: relative;
+    opacity: 1;
+    transform: scale(1.1); 
+    transition-duration: 0.5s;
+}
+
+.tit{
+    font-size: 27px;
+    text-align: center;
+color: #474747;
+}
